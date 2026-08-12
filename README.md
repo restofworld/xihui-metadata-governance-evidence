@@ -11,8 +11,8 @@ be used to sign new evidence.
 
 Release candidate source identities:
 
-- xihui: `3df2b33242b0afddfa2a149b2f33b5ff5dc55039`
-- metadata-core: `29cf1bb0191f0f1d916eef8ac4cdeff5f60069ab`
+- xihui: `0fdcf498a25309ca54c6ca47812a96bcc5032014`
+- metadata-core: `2ff6276cd49a84a3c65f6426e51682b7431d8b69`
 
 The reports were produced against an isolated PostgreSQL clone. Its database
 identity is represented only by a SHA-256 fingerprint in the signed manifest.
