@@ -11,7 +11,7 @@ be used to sign new evidence.
 
 Release candidate source identities:
 
-- xihui: `f8d905b57b3f65de349d7c252ecaeed347c80bc8`
+- xihui: `3df2b33242b0afddfa2a149b2f33b5ff5dc55039`
 - metadata-core: `29cf1bb0191f0f1d916eef8ac4cdeff5f60069ab`
 
 The reports were produced against an isolated PostgreSQL clone. Its database
