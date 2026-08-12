@@ -1,0 +1,1 @@
+{"schema":"xihui-governance-redacted-artifact/v1","kind":"verify-result","redaction":"redacted","result":"pass","command":"npm run verify:xihui:metadata","message":"Verified xihui metadata publication for tenant=xihui"}

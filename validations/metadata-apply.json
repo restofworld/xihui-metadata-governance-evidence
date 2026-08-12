@@ -1,0 +1,1 @@
+{"schema":"xihui-governance-machine-report/v1","command":"metadata:apply","exitCode":0,"result":"pass","environment":"isolated-postgresql-clone","metadataControlPlaneWritesOnly":true}

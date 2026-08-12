@@ -1,0 +1,1 @@
+{"schema":"xihui-governance-machine-report/v1","command":"metadata:audit:retired-business-packs","exitCode":0,"result":"pass","integrationDatabase":"isolated-postgresql-clone"}
