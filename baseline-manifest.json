@@ -25,7 +25,7 @@
   "releaseCandidate": {
     "schemaVersion": 1,
     "mode": "release-candidate",
-    "sourceManifestSha256": "72ee3eaab183c6c89937da83562028299004f33f08e6801fda02cf7b58947cd9",
+    "sourceManifestSha256": "2c1d7da40a06a0d3354b0833408629b8cfbc98a04976cf1e916bd4a54684e8b3",
     "compilerIdentity": {
       "coreCommit": "2aadc01f9f9dd738f2a1cc340d9d8430dc634f03",
       "nodeVersion": "v23.11.0",
@@ -91,12 +91,12 @@
       "reviewerModel": "unknown",
       "reviewerSessionId": "independent-review-2026-08-12",
       "decision": "approved",
-      "issuedAt": "2026-08-12T15:03:42.139Z",
+      "issuedAt": "2026-08-12T15:08:58.896Z",
       "expiresAt": "2026-09-12T23:59:59.000Z",
       "sourceCommitSetSha256": "8f95adc705a9b663c79c915130bf10c26b35f9be5f60c1b8005ebab0a7824c10",
-      "evidenceSha256": "d0b41d180a736361de563b9d908410a7d42c8a86221fe16fa1ba6aa6be26e49b",
-      "signedPayloadSha256": "44c40a45aaa991fd4eb6f41b008fbf9b91aa0401cb88bb921705b1546d1d1f37",
-      "signatureBase64": "ll17FimnIdqtHI9QodYNzIEfbVjiYYJaojH8niauFu5zpc19ClfQnaFcOKhiN08OZkCxZA0TraoJvLM8xZc8AMlz+RYbAVXLyfJAGdOPuankuJsG/v0SdXph14OcPoj7XrIeBqGa/IvVHj2FkqX6+JAL7dp3ddrG+eIUTcZnhM7N0ye8Hj/fU8EvZBM8GWcykgyQ6kINYp9xemC4IRqTXh9/CYq0ro4gEWoleNp6Gf3ErQaUs8b7+xdPSMMoN8pwHPzQEVH36+ZF53umyGxmhmPV5iEA5RViKqG9EPGb8B3ODDapPkPZJVRHH0HShcAv9BnuJd/QQcyJTEysm6IhLkin8gO0g1hT/sOAuVaLnFfLvwKxffuG+jQcs5D0WsEwYT4p70vZzItVpHgTN6sV96jIZmokrp81dhUA8srR7m+Qpe+EEsantl+FoGMPHWs7B8XtEQ2MWtBg5vrd9yy41v1mfzW7yjwhI3nvcvtekoORNp7zW2ODQsrLow91pGuI"
+      "evidenceSha256": "5e3ff47853741bafbc73e1876f6d28fa66805f62b52f0415f9fcb1b7d85aea0f",
+      "signedPayloadSha256": "f258009adda96aa6f156a1dbd4f84a5806ea2805f24ef60e5818c65eb4b63746",
+      "signatureBase64": "jqg8WviPG2tBszqnbZZ3duS9yqo/aaa/SMJiqgqRAKa0FfNxL8dxLjd1WxF4Nv0o/ZZNzoz+vk1JwRBSHvk515CfppSzQpa5wtBP0Uv7IWjJmruMkz0S2JFOKGDXOF4hGnr/1SbWCnz61TvwmgNi/9LHlZ5ykQrobOFEzQkDVchJq2ZRje0gWlIY9lcXN7/yRGzOJj0SnyWf5tJ4ttKTEMQmLx6DAuvo4mVqgNPP6neK53E8hm6VtFz6D8XFjKOb7HRNtwLWOjsYKibdAGKDf4sprLyKcm0yHhDznzMSnjqAJxEOf4w93VRNGVkiyrnhMYcibQPtvxY90xJBXlrgnzzXLTmXexdxwp1XQkz+OeNLeu9gnJb38t3YPic0Jl95jR8a0TI3Tg3GZB70XRPUmQO0jDD7OM4+48N2Rnf4KtIzGho3Z8W1GKz3OyzIJRN88fejJfOVZ0gXF4meKNoyh7Auq46JrZzUNTVIhBlcvHsJjiqynR1byhEl4OkYhvWG"
     }
   },
   "artifacts": [
@@ -169,7 +169,7 @@
   ],
   "ownerAttestation": {
     "keyId": "xihui-governance-owner-2026",
-    "signedPayloadSha256": "e8e1189828428cc180267b89b87c6e3ded0047e09cb4ff921aa3a8af740cb6cf",
-    "signatureBase64": "YAeOPR9dQ8DmsxsHdngzd/sRovs8Y/Z1I62hQXEp7TxYx6cJVMfyeUVZ1+R/p3yIVnnPOxFx1EgIgjB7XHMjQugQPc7aViORZyZqEXuTNOhlpNwAiVdNCc2+UN/M2jKTjeYvN6vpE8ZItC6qJfPeScGac+TRHFqqEmoUuAz/pWhz/tEAv9d5ZGjH9p4VzCk74RKazYKGmOGCFhVDS4YaBcNakswZVCiHe8SU5QnCI0pZNLVge+8P3gc1IKqczFCmgmH/KC0XlOcsLzIYFKzITA6gytedhVmNG37TMDUmfh7u2h6Ee+cCEV+82uV/yanmRzDN/q+mwNMgs3nCdTs7O2kQ8DuFRUFxpLcgbKByUSIzNR7quWvTDHwKo/DCptzeRXrduBOHSGhLuCLBFQlte3uOtpIwNw+Vk8OFJKWH0n4Px9gvnrWWftlzNLyfT53WPcWRGzCwe5EQavSFHz5clfKmyqPksRxD4gCP/Z3sdeTz9a4uVDqeVIctp5WWRw4S"
+    "signedPayloadSha256": "bc28f0902ac86dc92a9f1395a7c848c689864feed84dca37622095923917133e",
+    "signatureBase64": "fybfljLbCLTTE5FQX4AxtJ2ttDja5h3VpAS2mkLyxRf5sUpUjZ1Amtm9HaB1k3JqxO3u9TZqe40pJ1cqzie/mYtrFNX7uc1YMJT0vRtPCXaCQxz+CWkiMr4DRUhDVi5LVv6u9x1Rfvhy/ulD89rcuVVaUA6uK54cs1fCnGpA/zHDwIHwcNMfke7GpHCum3UMc79WnFcpKpmYXwYgBke8ISAngl3Y80719UfQxmRRVbgVoBG9HblobGEqwvdRA1j1P1HlM9T/FhW7nYUiAVz8jCCRpZQJJZ+HL9wKr8+qrg3Iad4yyn7Fm7uUFEvZPax9962TFkolhqr1+Uvt0pA1oCuG6AkrQ7TbX9xy81C/2YwPv+4ie8eDu5qWZFTQzE64ZSJ3zAHyjyXllNZ5WURRcvIKlrZ3ij1ZdNalG3b+iDszyaF+pVYFZZB0F1XRHfsD02M2Al0k4502NxN9MxZMQL18s4KIK8wZ1jc9f3FU+80/vVIo6NHAaKidunLra0/d"
   }
 }
