@@ -1,1 +1,8 @@
-{"schema":"xihui-governance-redacted-artifact/v1","kind":"normalized-snapshot","redaction":"redacted","inputSha256":"5ed223307908e78365734a792f3a6c3a108c12ba9dfb6593da48b7b05192352d","normalizedSha256":"d719a5905d4cd294188f4ec2627d428ba0b7c0a69785df1d6dfa71a761d63809","normalizer":"xihui/scripts/metadata/normalize-baseline-snapshot.mjs"}
+{
+  "schema": "xihui-governance-redacted-artifact/v1",
+  "kind": "normalized-snapshot",
+  "redaction": "redacted",
+  "inputSha256": "",
+  "normalizedSha256": "",
+  "normalizer": "xihui/scripts/metadata/normalize-baseline-snapshot.mjs"
+}

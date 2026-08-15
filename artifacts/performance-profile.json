@@ -1,1 +1,9 @@
-{"schema":"xihui-governance-redacted-artifact/v1","kind":"performance-profile","redaction":"redacted","environment":"isolated-postgresql-clone","bundleContentSha256":"6569a82b1db845b0c9f46185f54f81de06a37cd317e96f4b8b1058d6c0cd6865","validationIssues":0,"note":"No production performance data or customer records included."}
+{
+  "schema": "xihui-governance-redacted-artifact/v1",
+  "kind": "performance-profile",
+  "redaction": "redacted",
+  "environment": "isolated-postgresql-clone",
+  "bundleContentSha256": "aeabdc6a7126d81d8b9614be651bd2ccdd56dd1797b195ac04977e3ff7473bc2",
+  "validationIssues": 0,
+  "note": "No production performance data or customer records included."
+}

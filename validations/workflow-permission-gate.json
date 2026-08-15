@@ -1,1 +1,13 @@
-{"schema":"xihui-governance-machine-report/v1","command":"metadata:workflow-permission-gate","exitCode":0,"critical":0,"high":0,"medium":4}
+{
+  "schema": "xihui-governance-machine-report/v1",
+  "command": "metadata:workflow-permission-gate",
+  "exitCode": 0,
+  "issues": [],
+  "severityCounts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "bundleContentSha256": "aeabdc6a7126d81d8b9614be651bd2ccdd56dd1797b195ac04977e3ff7473bc2"
+}

@@ -1,1 +1,26 @@
-{"schema":"xihui-governance-redacted-artifact/v1","kind":"canonical-bundle","redaction":"redacted","bundleContentSha256":"6569a82b1db845b0c9f46185f54f81de06a37cd317e96f4b8b1058d6c0cd6865","bundleArtifactSha256":"5ed223307908e78365734a792f3a6c3a108c12ba9dfb6593da48b7b05192352d","counts":{"entities":113,"fields":2819,"forms":404,"relations":459,"stateMachines":29,"businessRules":83,"workflowTemplates":31,"printTemplates":8,"reports":13,"entityViews":2,"menus":131,"pageConfigs":2},"source":{"xihui":"10a7203066ff28e0402d51f3f09df310eb0eb368","core":"2aadc01f9f9dd738f2a1cc340d9d8430dc634f03"},"databaseFingerprintSha256":"03f46aa7ed22e4ed75fb406bb46a837e4a35a6370de86fdfeac6c75096d5f125"}
+{
+  "schema": "xihui-governance-redacted-artifact/v1",
+  "kind": "canonical-bundle",
+  "redaction": "redacted",
+  "bundleContentSha256": "aeabdc6a7126d81d8b9614be651bd2ccdd56dd1797b195ac04977e3ff7473bc2",
+  "bundleArtifactSha256": "",
+  "counts": {
+    "entities": 113,
+    "fields": 2824,
+    "forms": 404,
+    "relations": 460,
+    "stateMachines": 29,
+    "businessRules": 83,
+    "workflowTemplates": 31,
+    "printTemplates": 8,
+    "reports": 13,
+    "entityViews": 2,
+    "menus": 131,
+    "pageConfigs": 2
+  },
+  "source": {
+    "xihui": "41b1988e8c9918632fc5fb7655b93d0a4ca2a9ab",
+    "core": "451e7b2beae3ceadfeaf3b82564715da1ee6e417"
+  },
+  "databaseFingerprintSha256": "1ac0f7d094dcfc7087aa49ef524fdef3a939f7d17cadab71206435f165e6b462"
+}

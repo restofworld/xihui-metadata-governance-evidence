@@ -1,1 +1,10 @@
-{"schema":"xihui-governance-redacted-artifact/v1","kind":"database-snapshot","redaction":"redacted","environment":"isolated-postgresql-clone","databaseFingerprintSha256":"03f46aa7ed22e4ed75fb406bb46a837e4a35a6370de86fdfeac6c75096d5f125","sourceBackup":"local-only","records":false,"credentials":false}
+{
+  "schema": "xihui-governance-redacted-artifact/v1",
+  "kind": "database-snapshot",
+  "redaction": "redacted",
+  "environment": "isolated-postgresql-clone",
+  "databaseFingerprintSha256": "1ac0f7d094dcfc7087aa49ef524fdef3a939f7d17cadab71206435f165e6b462",
+  "sourceBackup": "local-only",
+  "records": false,
+  "credentials": false
+}

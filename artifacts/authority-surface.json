@@ -1,1 +1,14 @@
-{"schema":"xihui-governance-redacted-artifact/v1","kind":"authority-surface","redaction":"redacted","metadataPublisher":"existing-active-tenant-local-actor-required","controlPlaneWrites":{"tenant":false,"systemConfig":false,"user":false,"userRole":false,"role":false},"transactionRevalidation":true}
+{
+  "schema": "xihui-governance-redacted-artifact/v1",
+  "kind": "authority-surface",
+  "redaction": "redacted",
+  "metadataPublisher": "existing-active-tenant-local-actor-required",
+  "controlPlaneWrites": {
+    "tenant": false,
+    "systemConfig": false,
+    "user": false,
+    "userRole": false,
+    "role": false
+  },
+  "transactionRevalidation": true
+}

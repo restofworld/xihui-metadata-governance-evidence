@@ -842,6 +842,8 @@ npm run check:unsafe-sql
 npm run check:tenant-isolation:strict
 npm test --workspace=@restofworld/metadata-server -- --run <focused-tests>
 CORE_REAL_DB_TESTS=true DATABASE_URL=<integration-db> \
+  CORE_REAL_DB_TEST_DATABASE_FINGERPRINT=<sha256-of-integration-db-url> \
+  CORE_METADATA_PROTECTED_DATABASE_FINGERPRINTS=<comma-separated-protected-url-sha256s> \
   npm test --workspace=@restofworld/metadata-server -- --run <real-db-tests>
 ```
 

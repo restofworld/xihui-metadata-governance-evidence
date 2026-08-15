@@ -1,1 +1,9 @@
-{"schema":"xihui-governance-redacted-artifact/v1","kind":"fixture-set","redaction":"redacted","controlPlaneIsolationTests":8,"coreBaselineManifestTests":6,"tenant":"xihui","customerRecords":false}
+{
+  "schema": "xihui-governance-redacted-artifact/v1",
+  "kind": "fixture-set",
+  "redaction": "redacted",
+  "controlPlaneIsolationTests": 8,
+  "coreBaselineManifestTests": 6,
+  "tenant": "xihui",
+  "customerRecords": false
+}
