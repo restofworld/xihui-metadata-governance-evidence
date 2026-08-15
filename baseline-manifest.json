@@ -92,16 +92,16 @@
       "type": "organization-signed-review-receipt",
       "keyId": "xihui-governance-review-2026",
       "issuer": "restofworld/xihui-governance",
-      "reviewerPrincipal": "codex/independent-reviewer",
+      "reviewerPrincipal": "/root",
       "reviewerModel": "Codex/GPT-5",
-      "reviewerSessionId": "independent-review-2026-08-15",
+      "reviewerSessionId": "01a0058e-c36c-7a22-b1a6-e691c210efa9",
       "decision": "approved",
-      "issuedAt": "2026-08-15T15:08:26.082Z",
-      "expiresAt": "2026-09-14T15:08:26.087Z",
+      "issuedAt": "2026-08-15T15:33:19.168Z",
+      "expiresAt": "2026-09-14T15:33:19.170Z",
       "sourceCommitSetSha256": "454a39eeb76134ab636665e6ab973c8baf2cc5e20a9fd85643a78580347dbaac",
       "evidenceSha256": "1f2e3780a8ff927737e2f326b71c2f91f46838d5f148093a0340e59f6c8a0574",
-      "signedPayloadSha256": "d2415d9baaa75bdc7304dbb623c82d86360e39c6a964bbe1042fa684c61eb0e6",
-      "signatureBase64": "e79Dvfv4oF2AJsJJXyJH4vnziy9KHGOuWzZhXFINzp5vvYNg5lF3txvnukKILtw/vXXlYZDFSi8SYBtI8YFYRnBYwP2G3iOEe9kHelIAleAAgx8PuVDocWR04DmKUAsVJafgZisQnE0zdObi3wvKMpyUJvNMs1cByN2r4uZZzM77Nt211GY/TGfeEmR2r66MAKg208q/nEcOv+cwRyyGQMLtMSkmmsJI9ATbw4Q4mQT8Tn0FKuOHSeAz123A7Nlrr1eBKheL/F4q3ZqdxPPa27e1kxEF8u/U3gPtcLxTDxRhQpi0jM+T2q+tJvkaqVwL/vMfRFK3wBBaJPkdU9wfaOJCRJ9YVH+waQ1xEyu4aUmhHV52ehAzMwHMABjkIgSpnULEpQvUexFxGh7MTL/narsWjPZXS6BKkqfa3XeNMGgTRszX8WICTOnnO6SAtuAl+P82OD5tJtBxSF4agVTDg1wJltUmOZhspIcV0DL1ffD1yJXHdrJr75SvVq3Wetc6"
+      "signedPayloadSha256": "176fcb49ac68768b13b99e42a4be776e1b1e4d70563840956d9a37922dcf5133",
+      "signatureBase64": "p9XYbOUcvba8u+ViQAnqFnXRFeQTvV8rDYONNPEuLmPeyVYuBkIBG/96wMaUf5uja/inCEcx2c5/DWaGIwGZVWwF9rVk4sxRSdrXw9gzMAPZFRdYg2jU6OxS3j29YkRufSHcHRkrBrY9HpYM7phcVBupmEVbjlEPxo4Tp4fyipHkZ1Z8ZHkUr61LFl4VJRZQXCmkQrtBExkkaDbyaOvKRZNLdewAVzHmxKRD1amvAFWwcbM9okPVOzMr4/cR6fEVswcJ7teoQnMS0NEuP68jskh1AxFxsnLY5eXvSzpEY5CVFruoGfTnw3pSrnEk4VvN5c1qB/rY9R/sNGddD+4u0Ws9rAm4klFLvFeHVZ1O6FNkBgDlYezAQ/NXS9dl/M2t1NIWw+k9a8EAwHHwDSqx/33QQsLPj/mLxy5u3rIjnvcJlScxrjc/MqNF4sfz/C2Gh2sSwu3oR/F3fvE/sgJY6RlQMFW8FLwGIngqp0LMxU8M+8Jzw6UPOgeUqH0VdZQ3"
     }
   },
   "artifacts": [
@@ -174,7 +174,7 @@
   ],
   "ownerAttestation": {
     "keyId": "xihui-governance-owner-2026",
-    "signedPayloadSha256": "dbcfcfb5ea1314599beae6087686bc6d384b7668753d895c1edcdbfab84cac3f",
-    "signatureBase64": "ZRaH8xl+ISyUWkCZuygz/4/Jh0lDC5nK3b+JG/roc8sSG7AZ8xEEJXZzEBBQWIhUW6qRlZDgy4bwl84CnUE8sRiGBdMF/Vzpahyg3/aocanDhKKc6V1Q68yEWBu3Ja4GoU8dQf69SMc7R+8KjD6EcSoJDTguwjpQ6ozHPReFyTGgTVaO3+EqZ8y0tV75s5XN5qGoBILGo1lU6rEhzTo23xLb7QMRy9yk3qo2zlyjRt+GETjfJofu4Kz+NGQprJPGJDPvVnWODdolzDVMnNM8MP7qBb0qAe0Zn0WK5Caz6COHZyzk1i4WxNQwr+tDwuqz05PuwwxaaCU4fi3Zyfjh6aE+nJgbWSGSTFAsPC6mZOlsbdzJGjUuwqBLReGqCi5k7woCAcgPUHOCImdVShghv5xJB+pDLIDDbiWqtFKCh/O1zlTn8CEvpKN3xsVpmYo3+HFfNeFeMy9Q+YaNrdGjGDplkWCAR0q01HbqUd1tJP7qd4fLMvvUnnIOmKUOSn9o"
+    "signedPayloadSha256": "ca0013e054c1303e11e049938f3bc4306189c7ce9582526b090a4c4830cf226a",
+    "signatureBase64": "eAMIB0kf4tf8EoVbvI4+afmkXwRpvwyP3dEUrlYAd0zFtUcU1FepGslGo1VbbedRmFhUTYhjXNpCmPf19AgISh2SV5kkpRlwksXCDajyXTyY1vtwSKy2zgxE04t/DMY9tYXWEiBfsXtB0eRl0EfShMHMeQQpjqqWQkiUkRWMncZoYgsUsq5ewn4L+RdeIqfRFfUmyjj+A18vdCUDgIzTLw5koQc02TGrRxsYE2NlCsmNNcybh8M+ZPKCgLYKCO1wzIDjosq35dab3rsdzRXK10m1G6WH2E3DYGL5CHrg6aEMMtsJO9Xd5DXtOVvywoxYbUZVH4GyJ4zu4oJA5sPSo+OX/82Lv3oQUMnmXkxnjtfFOjhdQsf27yyjKEXHxV4sFSeP7i1t7VVFX+72HcLa4VMHnCik5qwz0/dVmazkatwUjLV9nb46I0OWxHn+TatqJLh6H5EdWWBiP37kJXCzPQJRbj+FL4hTJNd6Up/qafr8Bm3Japloky/q7kBj4ejb"
   }
 }
