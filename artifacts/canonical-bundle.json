@@ -2,13 +2,13 @@
   "schema": "xihui-governance-redacted-artifact/v1",
   "kind": "canonical-bundle",
   "redaction": "redacted",
-  "bundleContentSha256": "164a6129700d8c50a6a8c1783ee1d9245b19224219d7c20a3e3c812ac7447d4e",
+  "bundleContentSha256": "df423c10a9da015b20cbaf80fca7f046b3f3a1d55d895f4cc7bb1ca27341fc71",
   "bundleArtifactSha256": "",
   "counts": {
     "entities": 113,
     "fields": 2824,
     "forms": 404,
-    "relations": 460,
+    "relations": 459,
     "stateMachines": 29,
     "businessRules": 83,
     "workflowTemplates": 31,
@@ -20,7 +20,7 @@
   },
   "source": {
     "xihui": "97fb2199d6b07cbf36dd9d43c0a73f1f084215c6",
-    "core": "f2e0b59d382cc18cf2657de899f63d0b473f1827"
+    "core": "0c9caab5681e58fb2170f0b2b99eff6d1f4bbc69"
   },
   "databaseFingerprintSha256": "1ac0f7d094dcfc7087aa49ef524fdef3a939f7d17cadab71206435f165e6b462"
 }
