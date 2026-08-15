@@ -9,9 +9,9 @@
   ],
   "planSha256": "5bd702a3a2c0a2b9bed77c01a5b6a5f5027d17dc999129a8554c7dce3c4c3345",
   "source": {
-    "xihui": "6ca74c4dd396084bfb2a16c994b4ebefd257532f",
-    "core": "c2a47e957d3e57ca17306977e8507a438b52067f"
+    "xihui": "d914ac8b0de12ca8fe1bc20bf0636e56f88a2a70",
+    "core": "f477d04912304dfeb4757bf4b227a1973be6169e"
   },
-  "bundleContentSha256": "aeabdc6a7126d81d8b9614be651bd2ccdd56dd1797b195ac04977e3ff7473bc2",
+  "bundleContentSha256": "70524063aee31ca7168659f947e76582485792b7bed4f37a7cf3abcc1381867d",
   "databaseFingerprintSha256": "1ac0f7d094dcfc7087aa49ef524fdef3a939f7d17cadab71206435f165e6b462"
 }
