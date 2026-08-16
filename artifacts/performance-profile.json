@@ -3,7 +3,7 @@
   "kind": "performance-profile",
   "redaction": "redacted",
   "environment": "isolated-postgresql-clone",
-  "bundleContentSha256": "b7d55f53a446d7149ebe11fa9e128475a0fa0242727fafbf3ba5a7749d4fbb4d",
+  "bundleContentSha256": "fb44f6758cad003e5b26ea00177987a6fd8db18ea19aa7e2934f7ff5fb875862",
   "validationIssues": 0,
   "note": "No production performance data or customer records included."
 }
