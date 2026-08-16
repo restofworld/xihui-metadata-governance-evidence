@@ -4,7 +4,7 @@
   "sources": {
     "core": {
       "repository": "https://github.com/restofworld/metadata-core.git",
-      "commit": "f6c70cf3abd26595ee6d2c4871531374ffa0f2f5"
+      "commit": "8242132c55996eb7a34979fa0bdd5aac6620fc59"
     },
     "project": {
       "repository": "https://github.com/restofworld/xihui.git",
@@ -25,9 +25,9 @@
   "releaseCandidate": {
     "schemaVersion": 1,
     "mode": "release-candidate",
-    "sourceManifestSha256": "324f7f3a31becb4bbf4cca8e61dcdc4a62aa5dd70056819646951308da6df826",
+    "sourceManifestSha256": "9d8228eba9d4999aa91f608ce562db536f94d10e1497997494c16876e6363f88",
     "compilerIdentity": {
-      "coreCommit": "f6c70cf3abd26595ee6d2c4871531374ffa0f2f5",
+      "coreCommit": "8242132c55996eb7a34979fa0bdd5aac6620fc59",
       "nodeVersion": "v22.20.0",
       "coreLockfileSha256": "ee659e7614a20e9940d7c4a61f8710a3334c953ccc8e8055413c2765b5175d29",
       "projectLockfileSha256": "c029296bfbd5a9ae5544aa9ebf862170b785b3b3c6240685a7ee9608dfd9a9a7"
@@ -96,12 +96,12 @@
       "reviewerModel": "Codex/GPT-5",
       "reviewerSessionId": "01a0058e-c36c-7a22-b1a6-e691c210efa9",
       "decision": "approved",
-      "issuedAt": "2026-08-16T00:10:30.953Z",
-      "expiresAt": "2026-09-15T00:10:30.955Z",
-      "sourceCommitSetSha256": "61c8cbedde1710c40d16c48418303b3a6ae61046e294d75aec2fe6da81a7b503",
-      "evidenceSha256": "a462f715a1319725ad59c3afcdae310c46f3c41b15bd0e9f3623398e37e0d29b",
-      "signedPayloadSha256": "34fb1f2417c78b79b7fe829ba7b3e9891e46b2362cc77216bfa4c8e4d7208e97",
-      "signatureBase64": "hrj3zmh3d5vpsY3X8DqXnp2V96HuT0Efv/N1P849IFE7wgJknjiJLXyURiMuAU/afC86NMKssiErQP2qeh02j4Oz9+90VTc8dYxPqPs8OzhAsRkY3Mi8RSamaFIrYNDzsDDU9mwCZIRmJqO+R0XTWdW2Nhaipm6d2erNTR1mbBf2p7wV9mzO0i4pfNO2u21cNkMlxQKUrkD/EJVyYJhz5kmKNavL1oYT7uN/HmpkabOUh1/vYVIVbuPaNVRPHxczUQMv0QPO/lmXpkQNYK4B4zAgs1+dIGC4t9o+GZjae45STHPBt0xQbuGOTVtej9QCadTxUAnMNotIfUwLNrYsyxEQsgJWlA7X8Q2oV6mQGWBu1TmJmzYJsH1u8O5Rbt/yJU6lVRrBo4OQnkXHS/qDzkamBXmyOrprHlwoW9nN5wRRtFOSwBUfPeOvwkd3sA43nLs/6aeYiIkXN9Z9SbYPClalKYtQS9gfJhMpgVsOlfRHBjF+TNw5QE/040NlnYTX"
+      "issuedAt": "2026-08-16T00:21:43.829Z",
+      "expiresAt": "2026-09-15T00:21:43.832Z",
+      "sourceCommitSetSha256": "a0c3451d1ed8d93dcb7a4a9a1436bc36adda59d00fa70d801614d6ceaab97b57",
+      "evidenceSha256": "e42d449514cf10b1478bca5f39bcdabc2349bdcfcddb85acad4abafe2a9cf047",
+      "signedPayloadSha256": "b312b03cfeaffb5691c8dbef3f07cee2e6877032c3719da9c86e00c0b0d0682d",
+      "signatureBase64": "CixIAOlK+NS6mxME3382nhDXI1QOgfA4EGG9cK74V8YZ6NUKMJ+rEfY7mo1bJGlsFshWECzs70g5NsZ8MzG7VvWyQdfZuJXzTz90hIBVOBkGMeTJeKBKpm3RuuKbConRuCH/VRKt1PYaw4CNB2C/e+S9nYOA/OZeBCF27TZcXdQ/N0oG64V7dy5mBh1BBde3NqqZiJaHzQFKNawrmrM94B27MqFi5x6GkVzWDGBt3JR9ilB3omeEaWdMMfCdMVZy8U1WUfCZ/pesMqXwJfjSU/CGat6AwGZ+M6Yo58cn/F3Ux6JGxYLM3UGFbZxmtQL/X/iD9IO7er4YlwBB72H05lqdmdmah5iuiMNjD2vjfyS8Xg9MtgyBNNKEZXSaUKiCQMNQb5aGpQ60bNeObRdy4BtdZUSN5SnARQkFUi65tv/6hP5+5uAPvQfSZumw51ZGBu91YvUqJGrL3MFXVZD2ZzQpBgehY3hqtn6l5ii5eANsXQxaEPT35eIN87hHH0Aw"
     }
   },
   "artifacts": [
@@ -114,7 +114,7 @@
     {
       "kind": "canonical-bundle",
       "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/main/artifacts/canonical-bundle.json",
-      "sha256": "312d11efaa3deff31f7eb7efa47a0084d6bb5cfaa648c5977fee41896f9694b1",
+      "sha256": "5cf8ee4543b48edacf18649298d6a6331890f1f69d0c473098bce33314b67526",
       "redaction": "redacted"
     },
     {
@@ -156,7 +156,7 @@
     {
       "kind": "publication-diff",
       "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/main/artifacts/publication-diff.json",
-      "sha256": "ca52de21c4967ec520b9a924e7e42af8c18938a18509d054e0081fd0b40da969",
+      "sha256": "90c7171c6d3589d0b4306f2286d76d139d5b162b3e1f110700af3b9e542b2a4a",
       "redaction": "redacted"
     },
     {
@@ -174,7 +174,7 @@
   ],
   "ownerAttestation": {
     "keyId": "xihui-governance-owner-2026",
-    "signedPayloadSha256": "4d581df0341269e6d6925dcf75d50886599c63bc6b667bf98ba3650d3b5f7838",
-    "signatureBase64": "MHbshIaprJYI4ZuPHmoKvn3aA7p6y4ahqWuLBxwsgUw+7tp868d/CcGrgFZFEURG330wvUuuHEKzliBORnon5+EqX10Cyu1BWg7wB3nsk6Q8O898xAdBwkdNW4XRSzWIdpu9M8CcpAB6iJUGqpcBxmr+LlLmuTQ51care6zQVX6IRtGg1Vs/dvqbkYkyJ9urYzsk7ouWiQ3gEWijLhxmIWu5IkuMI2fiKW0mhKzMXEls1rlau0E/+UUzzwez4z/5c+SOjfakBVWQb6hZKUK0ecf3mAILNPVGPHAAGpkUnOSwL+WdlMrkbUwsS7iTIKeVtdkOEtHfBBktwxPqHJHQ8o8C+gSbeezBaprDAG/L7be5WIus/duj74uxm7cncQ8Kn/L6a4A6Sa9LmZm0qLVqiInQleRw43cynu1OEDkcTd3BogtlVGvd52l/mTjNXF2SXAT+Lt8Cd2NBWfhicMMDCp98MX6KdEIaB7fAft+3toTvEyJ7IyMfwAwg5yofDqC+"
+    "signedPayloadSha256": "8d4dfa55e1fb2a22866697aa19ec835a6e3757fdc0a69acb6c9d2f08a430813f",
+    "signatureBase64": "TpnbKj0QYyAHvsACnj9BnUtHIDgYSsm9PyS2GOeH0xJkN+6bicQ+c+yos2IWYK3Qk5fgL7YKUE4C6OObeWQBR0Q7OZq0thONSolnwKcYyxKKJAFAiJH6asRgNGQ3aNo0TtIeP3gGZ5MQIIgSpB7ATExxn3cxfzdKrP+z7pm08G+NXJrv1q9xP4ehwi9ZAeL30fLYZa1b0fBmfYFr8jXKsQAv3KHNaVjUG8PTPgLxZYT3n2DHJmWdnzFNMeisl7ARwUw9F6Ilts+Cs2pz0eyRrVZPAQentPUJt6CjPEOEemTzIUFgc9bz29QwqG20jBbJ3zlPqFGf7karqSoCI8RzUmZW4qkKayU4OcVkEObtNJ8HVi9fNP8Dz7gd7VLgkcwPlTAbaTkvy/xT/qTey7vGw+XQktbv+6CxztcbrojIkjtEdqYvJRV+4fyP/CGxz5NfONEy+EIpUoKERGJJR0+DFFmzZxz3pRygpND+Tx1vEV4bRuMOCtzIFdkfgfqPLA1j"
   }
 }
