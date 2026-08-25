@@ -2,6 +2,8 @@ import { createHash, createPrivateKey, createPublicKey, sign, verify } from 'nod
 import fs from 'node:fs'
 import path from 'node:path'
 
+import { assertImmutableManifestUrl } from './immutable-url.mjs'
+
 const requiredEnvironment = (name) => {
   const value = process.env[name]
   if (!value) throw new Error(`${name} is required`)
@@ -52,19 +54,7 @@ if (!/^[a-f0-9]{64}$/.test(expectedManifestSha256) || !/^[a-f0-9]{64}$/.test(exp
   throw new Error('Manifest and public-key fingerprints must be lowercase SHA-256 values')
 }
 
-const url = new URL(manifestUrl)
-if (
-  url.protocol !== 'https:' ||
-  url.hostname !== 'raw.githubusercontent.com' ||
-  url.port ||
-  url.username ||
-  url.password ||
-  url.search ||
-  url.hash ||
-  !/^\/restofworld\/xihui-metadata-governance-evidence\/[a-f0-9]{40}\/(?:[A-Za-z0-9._-]+\/)*[A-Za-z0-9._-]+$/.test(url.pathname)
-) {
-  throw new Error('Manifest URL must be a query-free raw GitHub URL pinned to a full evidence commit')
-}
+const url = assertImmutableManifestUrl(manifestUrl)
 
 const response = await fetch(url, { redirect: 'manual' })
 if (response.status !== 200) throw new Error(`Manifest download failed without redirect: HTTP ${response.status}`)
