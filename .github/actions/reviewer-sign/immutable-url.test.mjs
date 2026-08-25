@@ -30,6 +30,8 @@ describe('reviewer signing immutable URL policy', () => {
       `https://user@raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/${commit}/manifest.json`,
       `https://raw.githubusercontent.com:443/restofworld/xihui-metadata-governance-evidence/${commit}/manifest.json`,
       `https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/${commit}/manifest%2Ejson`,
+      `https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/${commit}/../main/manifest.json`,
+      `https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/${commit}/./manifest.json`,
     ]) {
       assert.throws(() => assertImmutableManifestUrl(url), /pinned to a full evidence commit/)
     }
