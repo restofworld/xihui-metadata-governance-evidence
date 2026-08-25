@@ -1,0 +1,41 @@
+name: Trusted metadata reviewer signing
+description: Validate and sign an immutable xihui metadata baseline without executing release code
+
+inputs:
+  manifest-url:
+    description: Immutable raw GitHub URL for the unsigned manifest
+    required: true
+  manifest-sha256:
+    description: Expected SHA-256 of the unsigned manifest
+    required: true
+  expected-public-key-sha256:
+    description: Trusted canonical DER SPKI public-key fingerprint
+    required: true
+  expected-key-id:
+    description: Trusted reviewer key identifier
+    required: true
+  expected-issuer:
+    description: Trusted review receipt issuer
+    required: true
+  private-key:
+    description: Reviewer private key supplied by the protected environment
+    required: true
+
+outputs:
+  reviewed-sha256:
+    description: SHA-256 of the reviewer-signed manifest
+    value: ${{ steps.sign.outputs.reviewed_sha256 }}
+
+runs:
+  using: composite
+  steps:
+    - id: sign
+      shell: bash
+      env:
+        INPUT_MANIFEST_URL: ${{ inputs.manifest-url }}
+        INPUT_MANIFEST_SHA256: ${{ inputs.manifest-sha256 }}
+        INPUT_EXPECTED_PUBLIC_KEY_SHA256: ${{ inputs.expected-public-key-sha256 }}
+        INPUT_EXPECTED_KEY_ID: ${{ inputs.expected-key-id }}
+        INPUT_EXPECTED_ISSUER: ${{ inputs.expected-issuer }}
+        INPUT_PRIVATE_KEY: ${{ inputs.private-key }}
+      run: node "$GITHUB_ACTION_PATH/sign-review.mjs"
