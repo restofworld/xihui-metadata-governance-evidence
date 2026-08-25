@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Sign with the isolated reviewer key
         id: reviewer_sign
-        uses: restofworld/xihui-metadata-governance-evidence/.github/actions/reviewer-sign@203f4478d498243f5497ea1379941d50960c800d
+        uses: restofworld/xihui-metadata-governance-evidence/.github/actions/reviewer-sign@c6109fea6018a5a7376a48f750e2f61dd2460901
         with:
           manifest-url: ${{ inputs.manifest_url }}
           manifest-sha256: ${{ inputs.manifest_sha256 }}
