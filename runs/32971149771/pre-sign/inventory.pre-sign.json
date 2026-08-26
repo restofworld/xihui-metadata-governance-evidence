@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "xihui-redacted-evidence-inventory/v1",
+  "githubRunId": "32971149771:1",
+  "sources": {
+    "core": {
+      "repository": "git@github.com:restofworld/metadata-core.git",
+      "commit": "610bdac0a558eca51d9555fa678dfbf819141da4"
+    },
+    "project": {
+      "repository": "https://github.com/restofworld/xihui",
+      "commit": "9d5babafe85250f5bbc02e4b7a7fc8dcb18b56ad"
+    }
+  },
+  "databaseFingerprintSha256": "cc2e3ec9fd59c2fd1c797f6af5e58e4e4537b0de938f7b9164783bb327d4ebe7",
+  "bundleContentDigestSha256": "4030923ad990a2b81b997dcc8e177ab0c6e32c327b3f0192623d1e015c24e0e5",
+  "artifacts": [
+    {
+      "path": "artifacts/canonical-bundle.json",
+      "sha256": "c11ad099019a8fb598f7748d8d1473842cde10cc34d18f7749c255440b3c489e"
+    },
+    {
+      "path": "artifacts/normalized-snapshot.json",
+      "sha256": "dc381cb31d9f6a622bb4b68cfb1db01bc21527b518b546cbf40ff34e8c2ca3bd"
+    },
+    {
+      "path": "artifacts/semantic-issue-set.json",
+      "sha256": "229940eda63c236e3c58a135497ebfa93b6e598219954d510afe45bbccd67247"
+    },
+    {
+      "path": "artifacts/publication-diff.json",
+      "sha256": "eacd65ea90f7a6fbe9aba68448179b9660bbbdcea54b1ada04ed16030e3ea1a5"
+    },
+    {
+      "path": "artifacts/database-snapshot.json",
+      "sha256": "5bee38f036977705d5b130ffff354d1892b878daf3d9464efc6653037f3af15c"
+    },
+    {
+      "path": "artifacts/authority-surface.json",
+      "sha256": "eb9aed3fcff2325fbf024317546fc29693bc98e1e3f3b3de6dd02abc84ce6777"
+    },
+    {
+      "path": "artifacts/verify-result.json",
+      "sha256": "8b84cde194d59441daa7e80b536115c296749fdf954299394a45a5fd17714f8f"
+    },
+    {
+      "path": "artifacts/permission-matrix.json",
+      "sha256": "41d09ffecb3ae5b8e4a4ef8fc80eedae6f29218dc9dac3c05ca298a2b6ebe8e7"
+    },
+    {
+      "path": "artifacts/fixture-set.json",
+      "sha256": "423f81a9a4dd612483f67ba9c672e8473e7543824294bc1a5cc15eee39936d23"
+    },
+    {
+      "path": "artifacts/performance-profile.json",
+      "sha256": "faf4ceb6d9f08d4bcde50a75fad8d707f370b91d6f832543691c3ace027003a6"
+    },
+    {
+      "path": "artifacts/known-open-items.json",
+      "sha256": "c1b63a973182c64217b89c39bb7c45fe9a8091d86d8a424c168e1c116884240f"
+    }
+  ],
+  "validations": [
+    {
+      "path": "validations/metadata-validate.json",
+      "sha256": "386e57e3957b270a1a6f85bfd7d1644734b438b6d0592480f90c407995a03d4d"
+    },
+    {
+      "path": "validations/metadata-diff.json",
+      "sha256": "fe84569b65d165d854ac62b78a7f1ad3c9046470e42d84a0115061f32b7ebc92"
+    },
+    {
+      "path": "validations/metadata-apply.json",
+      "sha256": "493b667733c7b5d315adeb3f3b0d3647b8f13716df2b548ddb9a3082bf43b8fc"
+    },
+    {
+      "path": "validations/metadata-verify.json",
+      "sha256": "ddaef699d95bcb556338a326aedc5b1f58fcb8c339965d80c30b88d593f0f89c"
+    },
+    {
+      "path": "validations/workflow-permission-gate.json",
+      "sha256": "fab45e1914e3e4b55cf18564ff841a392d97999b079785982f66bd24fda7c617"
+    },
+    {
+      "path": "validations/retired-business-packs.json",
+      "sha256": "1c99814376b3890684a81edeefd41e2816eb0583b5f09dbcde6456dda22a801d"
+    }
+  ]
+}

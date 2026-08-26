@@ -1,0 +1,18 @@
+{
+  "schema": "xihui-governance-redacted-artifact/v2",
+  "kind": "performance-profile",
+  "githubRunId": "32971149771:1",
+  "sourceManifestSha256": "fa2bb05a34f4592d5ac483fc5cc21aa84de71f787b21aca3634c5e713262c90f",
+  "redaction": "redacted",
+  "measurementCaptured": false,
+  "commandReportCount": 6,
+  "observedExecutionTimestamps": [
+    "2026-08-26T13:08:36.702Z",
+    "2026-08-26T13:08:45.786Z",
+    "2026-08-26T13:09:12.411Z",
+    "2026-08-26T13:10:00.567Z",
+    "2026-08-26T13:10:09.672Z",
+    "2026-08-26T13:10:17.638Z"
+  ],
+  "note": "The release workflow does not capture duration or resource metrics; no performance claim is made."
+}

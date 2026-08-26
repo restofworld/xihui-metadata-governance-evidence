@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "metadata-governance-command-report/v1",
+  "commandId": "workflow-permission-gate",
+  "command": {
+    "executable": "npm",
+    "args": [
+      "run",
+      "metadata:workflow-permission-gate"
+    ]
+  },
+  "exitCode": 0,
+  "executedAt": "2026-08-26T13:10:09.672Z",
+  "execution": {
+    "issuer": "https://token.actions.githubusercontent.com",
+    "subject": "repo:restofworld/xihui:environment:metadata-evidence",
+    "runId": "32971149771:1"
+  },
+  "sources": {
+    "core": {
+      "repository": "git@github.com:restofworld/metadata-core.git",
+      "commit": "610bdac0a558eca51d9555fa678dfbf819141da4"
+    },
+    "project": {
+      "repository": "https://github.com/restofworld/xihui",
+      "commit": "9d5babafe85250f5bbc02e4b7a7fc8dcb18b56ad"
+    }
+  },
+  "sourceCommitSetSha256": "bf3220ab2e75347f0774f9da5f48252acea9cb9cdb4eb8f507b7fedca9a6bdf6",
+  "sourceManifestSha256": "fa2bb05a34f4592d5ac483fc5cc21aa84de71f787b21aca3634c5e713262c90f",
+  "databaseFingerprintSha256": "cc2e3ec9fd59c2fd1c797f6af5e58e4e4537b0de938f7b9164783bb327d4ebe7",
+  "databaseStateBeforeSha256": "ea191318f9cae44e9a6075d2d1affd6acf86af8402ab2c8c6d4035690f3a5883",
+  "databaseStateAfterSha256": "ea191318f9cae44e9a6075d2d1affd6acf86af8402ab2c8c6d4035690f3a5883",
+  "bundleContentDigestSha256": "4030923ad990a2b81b997dcc8e177ab0c6e32c327b3f0192623d1e015c24e0e5"
+}

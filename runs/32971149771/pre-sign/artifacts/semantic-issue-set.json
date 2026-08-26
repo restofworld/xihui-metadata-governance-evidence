@@ -1,0 +1,24 @@
+{
+  "schema": "xihui-governance-redacted-artifact/v2",
+  "kind": "semantic-issue-set",
+  "githubRunId": "32971149771:1",
+  "sourceManifestSha256": "fa2bb05a34f4592d5ac483fc5cc21aa84de71f787b21aca3634c5e713262c90f",
+  "redaction": "redacted",
+  "result": "pass",
+  "severityCounts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  },
+  "issueSetSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "issuesIncluded": false,
+  "validationReportSha256": "b6eb0e95bcbb0bbeaac17c8f151d66108dc4ebef083e65197f109c78cbf86ba9",
+  "coreValidatorReportSha256": "6a0e019461699af36da367a604a98f4b2e38562a8228477b152eb0b0f7b13989",
+  "coreValidatorSeverityCounts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 0
+  }
+}

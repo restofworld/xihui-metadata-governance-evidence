@@ -1,0 +1,12 @@
+{
+  "schema": "xihui-governance-redacted-artifact/v2",
+  "kind": "fixture-set",
+  "githubRunId": "32971149771:1",
+  "sourceManifestSha256": "fa2bb05a34f4592d5ac483fc5cc21aa84de71f787b21aca3634c5e713262c90f",
+  "redaction": "redacted",
+  "staticSelectorCaseCount": 10,
+  "databaseSelectorCaseCount": 10,
+  "databaseActorCheckCount": 99,
+  "customerRecordsIncluded": false,
+  "privateReportSha256": "8a3c1b47d169b9ce39002f723805fdb0826b53de224c32643b2697edc97b4c1d"
+}
