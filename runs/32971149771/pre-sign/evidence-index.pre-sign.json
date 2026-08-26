@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "metadata-governance-evidence-index/v1",
+  "databaseFingerprintSha256": "cc2e3ec9fd59c2fd1c797f6af5e58e4e4537b0de938f7b9164783bb327d4ebe7",
+  "preSignExecution": {
+    "issuer": "https://token.actions.githubusercontent.com",
+    "subject": "repo:restofworld/xihui:environment:metadata-evidence",
+    "runId": "32971149771:1"
+  },
+  "implementation": {
+    "principal": "codex-agent:/root",
+    "model": "GPT-5 Codex",
+    "sessionId": "01a00d64-5841-73b1-8097-1026c59c795f"
+  },
+  "reviewAttestation": {
+    "keyId": "xihui-governance-review-2026-08-26",
+    "issuer": "restofworld/xihui-governance",
+    "reviewerPrincipal": "codex-agent:/root/tenant_fk_fix/user_role_authority_review",
+    "reviewerModel": "gpt-5.5",
+    "reviewerSessionId": "/root/tenant_fk_fix/user_role_authority_review",
+    "issuedAt": "2026-08-26T13:11:06Z",
+    "expiresAt": "2026-08-27T13:11:06Z"
+  },
+  "artifacts": [
+    {
+      "kind": "canonical-bundle",
+      "path": "artifacts/canonical-bundle.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/artifacts/canonical-bundle.json",
+      "redaction": "redacted"
+    },
+    {
+      "kind": "normalized-snapshot",
+      "path": "artifacts/normalized-snapshot.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/artifacts/normalized-snapshot.json",
+      "redaction": "redacted"
+    },
+    {
+      "kind": "semantic-issue-set",
+      "path": "artifacts/semantic-issue-set.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/artifacts/semantic-issue-set.json",
+      "redaction": "redacted"
+    },
+    {
+      "kind": "publication-diff",
+      "path": "artifacts/publication-diff.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/artifacts/publication-diff.json",
+      "redaction": "redacted"
+    },
+    {
+      "kind": "database-snapshot",
+      "path": "artifacts/database-snapshot.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/artifacts/database-snapshot.json",
+      "redaction": "restricted"
+    },
+    {
+      "kind": "authority-surface",
+      "path": "artifacts/authority-surface.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/artifacts/authority-surface.json",
+      "redaction": "redacted"
+    },
+    {
+      "kind": "verify-result",
+      "path": "artifacts/verify-result.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/artifacts/verify-result.json",
+      "redaction": "redacted"
+    },
+    {
+      "kind": "permission-matrix",
+      "path": "artifacts/permission-matrix.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/artifacts/permission-matrix.json",
+      "redaction": "redacted"
+    },
+    {
+      "kind": "fixture-set",
+      "path": "artifacts/fixture-set.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/artifacts/fixture-set.json",
+      "redaction": "redacted"
+    },
+    {
+      "kind": "performance-profile",
+      "path": "artifacts/performance-profile.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/artifacts/performance-profile.json",
+      "redaction": "redacted"
+    },
+    {
+      "kind": "known-open-items",
+      "path": "artifacts/known-open-items.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/artifacts/known-open-items.json",
+      "redaction": "redacted"
+    }
+  ],
+  "validations": [
+    {
+      "commandId": "metadata-validate",
+      "path": "validations/metadata-validate.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/validations/metadata-validate.json"
+    },
+    {
+      "commandId": "metadata-diff",
+      "path": "validations/metadata-diff.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/validations/metadata-diff.json"
+    },
+    {
+      "commandId": "metadata-apply",
+      "path": "validations/metadata-apply.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/validations/metadata-apply.json"
+    },
+    {
+      "commandId": "metadata-verify",
+      "path": "validations/metadata-verify.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/validations/metadata-verify.json"
+    },
+    {
+      "commandId": "workflow-permission-gate",
+      "path": "validations/workflow-permission-gate.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/validations/workflow-permission-gate.json"
+    },
+    {
+      "commandId": "retired-business-packs",
+      "path": "validations/retired-business-packs.json",
+      "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/fefba59ade356418c40720016e74bb786ac198b0/runs/32971149771/pre-sign/validations/retired-business-packs.json"
+    }
+  ],
+  "riskAreas": [
+    "metadata",
+    "tenant",
+    "transaction"
+  ],
+  "normalizerUri": "https://raw.githubusercontent.com/restofworld/xihui/9d5babafe85250f5bbc02e4b7a7fc8dcb18b56ad/scripts/metadata/normalize-baseline-snapshot.mjs",
+  "planUri": "https://raw.githubusercontent.com/restofworld/xihui/9d5babafe85250f5bbc02e4b7a7fc8dcb18b56ad/docs/superpowers/plans/2026-08-12-metadata-governance-systematic-remediation.md"
+}
