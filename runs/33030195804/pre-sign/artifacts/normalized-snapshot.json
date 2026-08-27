@@ -1,0 +1,26 @@
+{
+  "schema": "xihui-governance-redacted-artifact/v2",
+  "kind": "normalized-snapshot",
+  "githubRunId": "33030195804:1",
+  "sourceManifestSha256": "4613c9855c3e0069f23f42a4e23e327cd83d7c340eb4a4058a31af2675a26c6c",
+  "redaction": "redacted",
+  "normalizer": "xihui/scripts/metadata/normalize-baseline-snapshot.mjs",
+  "normalizerSha256": "78aa7179ce9e8c2f3574b7b792412c0d03e2b2a524ef6bd29e82d35227b8039f",
+  "inputSha256": "44da02557b1b145dad1f779d7732485e3a117d18b7b5b88b247d71b4bdb3da18",
+  "normalizedSha256": "ff10207ded802fe768c0a1ad9b03f6df66be3f1dd0a0225520f5a9f9e7c9ec84",
+  "normalized": {
+    "credentialsIncluded": false,
+    "databaseFingerprintSha256": "a6f2b0dbb71b901e9aa5c32b99ef36fef96a1457060db767e694e8a2c4e620a7",
+    "databaseStateAfterApplySha256": "162765fa275855ff5a6d165f9bb3a0a89960da4d2ce3b62dbbb4132616476c89",
+    "databaseStateBeforeApplySha256": "6010c2b08669d5614b0abd5e5c1a47424d22df638178e2811ab7e576bc57bc17",
+    "environment": "isolated-release-database",
+    "finalDatabaseStateSha256": "162765fa275855ff5a6d165f9bb3a0a89960da4d2ce3b62dbbb4132616476c89",
+    "githubRunId": "33030195804:1",
+    "kind": "database-snapshot",
+    "recordsIncluded": false,
+    "redaction": "restricted",
+    "schema": "xihui-governance-redacted-artifact/v2",
+    "sourceManifestSha256": "4613c9855c3e0069f23f42a4e23e327cd83d7c340eb4a4058a31af2675a26c6c",
+    "sourceReportSha256": "88bb760f9f33966b879535e28ac1d8853d62186b2d635ae315f753324eb5c50d"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "schema": "xihui-governance-redacted-artifact/v2",
+  "kind": "canonical-bundle",
+  "githubRunId": "33030195804:1",
+  "sourceManifestSha256": "4613c9855c3e0069f23f42a4e23e327cd83d7c340eb4a4058a31af2675a26c6c",
+  "redaction": "redacted",
+  "bundleContentSha256": "4030923ad990a2b81b997dcc8e177ab0c6e32c327b3f0192623d1e015c24e0e5",
+  "bundleArtifactSha256": "b2797c5eadd59b39ce1ba19f47ba1590147a55b75b146cb7c13a3fe57e587f95",
+  "counts": {
+    "businessRules": 83,
+    "documentFlows": 14,
+    "entities": 111,
+    "entityRelations": 459,
+    "entityViews": 2,
+    "fields": 2858,
+    "formFields": 0,
+    "forms": 398,
+    "menus": 132,
+    "pageConfigs": 2,
+    "printTemplates": 8,
+    "reports": 13,
+    "rolePolicies": 11,
+    "stateMachines": 29,
+    "virtualFields": 16,
+    "workflowTemplates": 31
+  },
+  "source": {
+    "xihui": "39841cd4ec1d07f5159a4f980aa1bd5bc94e1044",
+    "core": "279475531e59bac7aee4479789a975b1f580a004"
+  },
+  "databaseFingerprintSha256": "a6f2b0dbb71b901e9aa5c32b99ef36fef96a1457060db767e694e8a2c4e620a7",
+  "sourceReportSha256": "34d7d623661a9151ea9a09c45c10f4e526bca7fd16e824f76379361b39351929"
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "xihui-governance-redacted-artifact/v2",
+  "kind": "authority-surface",
+  "githubRunId": "33030195804:1",
+  "sourceManifestSha256": "4613c9855c3e0069f23f42a4e23e327cd83d7c340eb4a4058a31af2675a26c6c",
+  "redaction": "redacted",
+  "metadataPublisherCommand": [
+    "npm",
+    "run",
+    "metadata:apply"
+  ],
+  "databaseFingerprintSha256": "a6f2b0dbb71b901e9aa5c32b99ef36fef96a1457060db767e694e8a2c4e620a7",
+  "databaseStateBeforeSha256": "6010c2b08669d5614b0abd5e5c1a47424d22df638178e2811ab7e576bc57bc17",
+  "databaseStateAfterSha256": "162765fa275855ff5a6d165f9bb3a0a89960da4d2ce3b62dbbb4132616476c89",
+  "sourceReportSha256": "88bb760f9f33966b879535e28ac1d8853d62186b2d635ae315f753324eb5c50d"
+}
