@@ -125,6 +125,6 @@
     "tenant",
     "transaction"
   ],
-  "normalizerUri": "https://raw.githubusercontent.com/restofworld/xihui/39841cd4ec1d07f5159a4f980aa1bd5bc94e1044/scripts/metadata/normalize-baseline-snapshot.mjs",
-  "planUri": "https://raw.githubusercontent.com/restofworld/xihui/39841cd4ec1d07f5159a4f980aa1bd5bc94e1044/docs/superpowers/plans/2026-08-12-metadata-governance-systematic-remediation.md"
+  "normalizerUri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/d99f3cfb62ce071056dd6af3162ed3c4915a26b0/runs/33030195804/pre-sign/source/scripts/metadata/normalize-baseline-snapshot.mjs",
+  "planUri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/d99f3cfb62ce071056dd6af3162ed3c4915a26b0/runs/33030195804/pre-sign/source/docs/superpowers/plans/2026-08-12-metadata-governance-systematic-remediation.md"
 }
