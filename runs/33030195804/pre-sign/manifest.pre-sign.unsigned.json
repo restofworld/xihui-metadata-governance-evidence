@@ -28,7 +28,7 @@
     "sourceManifestSha256": "4613c9855c3e0069f23f42a4e23e327cd83d7c340eb4a4058a31af2675a26c6c",
     "compilerIdentity": {
       "coreCommit": "279475531e59bac7aee4479789a975b1f580a004",
-      "nodeVersion": "v23.11.0",
+      "nodeVersion": "v22.20.0",
       "coreLockfileSha256": "ee659e7614a20e9940d7c4a61f8710a3334c953ccc8e8055413c2765b5175d29",
       "projectLockfileSha256": "9e101199d93df5e64c7880292e9e307eb4ca0ec0ac3bf56e9d98aae01b1d2cd5"
     },
@@ -98,7 +98,7 @@
       "issuedAt": "2026-08-27T01:43:01Z",
       "expiresAt": "2026-08-28T01:43:01Z",
       "sourceCommitSetSha256": "3e061866f205fda6052ffd2db569dd9c13d3e426617cd41e5324c27504d1379b",
-      "evidenceSha256": "abb3772345dd2b025fb8a51d2c11798af64adeb77bcfe95bb534014e706964ed",
+      "evidenceSha256": "38acb4757271444ac7d5d475ecf7a3795998bb3e4290bfbec142033d4236ddf5",
       "signedPayloadSha256": "",
       "signatureBase64": ""
     }
