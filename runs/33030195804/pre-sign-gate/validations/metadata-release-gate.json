@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "metadata-governance-command-report/v1",
+  "commandId": "metadata-release-gate",
+  "command": {
+    "executable": "npm",
+    "args": [
+      "run",
+      "metadata:release-gate:pre-sign"
+    ]
+  },
+  "exitCode": 0,
+  "executedAt": "2026-08-27T09:19:30.402Z",
+  "execution": {
+    "issuer": "https://token.actions.githubusercontent.com",
+    "subject": "repo:restofworld/xihui:environment:metadata-evidence",
+    "runId": "33056977891:1"
+  },
+  "sources": {
+    "core": {
+      "repository": "git@github.com:restofworld/metadata-core.git",
+      "commit": "279475531e59bac7aee4479789a975b1f580a004"
+    },
+    "project": {
+      "repository": "https://github.com/restofworld/xihui",
+      "commit": "39841cd4ec1d07f5159a4f980aa1bd5bc94e1044"
+    }
+  },
+  "sourceCommitSetSha256": "3e061866f205fda6052ffd2db569dd9c13d3e426617cd41e5324c27504d1379b",
+  "sourceManifestSha256": "4613c9855c3e0069f23f42a4e23e327cd83d7c340eb4a4058a31af2675a26c6c",
+  "databaseFingerprintSha256": "a6f2b0dbb71b901e9aa5c32b99ef36fef96a1457060db767e694e8a2c4e620a7",
+  "databaseStateBeforeSha256": "162765fa275855ff5a6d165f9bb3a0a89960da4d2ce3b62dbbb4132616476c89",
+  "databaseStateAfterSha256": "162765fa275855ff5a6d165f9bb3a0a89960da4d2ce3b62dbbb4132616476c89",
+  "bundleContentDigestSha256": "4030923ad990a2b81b997dcc8e177ab0c6e32c327b3f0192623d1e015c24e0e5",
+  "baselineManifest": {
+    "uri": "https://raw.githubusercontent.com/restofworld/xihui-metadata-governance-evidence/098ce8292bed2d713e2f03e020068ab4384894df/runs/33030195804/pre-sign/manifest.pre-sign.signed.public-sources.json",
+    "sha256": "70af062f6989a4c0910ebeb0819ec6095bd71ccc0994d4d21848ca80956c3f58"
+  }
+}
